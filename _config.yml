@@ -6,7 +6,10 @@
 name: Thomson Napitupulu
 
 # Short bio or description (displayed in the header)
-description: Software Engineer
+currentjob: Software Engineer
+
+# Short bio or description (displayed in the header)
+description: Currently work as System Developer in Brankas, Former AVP Enterprise Solution in PDS. Former technical lead in Shipper.id (Serie B), 10+ years in software engineering industry.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/thomsonnapitupulu/thomsonnapitupulu.github.io/master/images/thomson-pp.jpeg
@@ -16,13 +19,13 @@ avatar: https://raw.githubusercontent.com/thomsonnapitupulu/thomsonnapitupulu.gi
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
+  linkedin: thomsonnapitupulu
+  github: thomsonnapitupulu
   email: thomson.p.napitupulu@gmail.com
+  dribbble:
   facebook:
   flickr:
-  github: thomsonnapitupulu
   instagram:
-  linkedin: thomsonnapitupulu
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
