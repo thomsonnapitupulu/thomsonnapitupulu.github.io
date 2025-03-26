@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<h1>About</h1>
+<h1 class="text-2xl lg:text-4xl mt-8 mb-4 text-black font-extrabold tracking-tighter italic leading-tight">About Thomson</h1>
 
 Hi. I'm Thomson Napitupulu. I'm a software engineer based in [Your Location].
 
