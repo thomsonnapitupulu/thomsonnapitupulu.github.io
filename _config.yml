@@ -90,7 +90,9 @@ exclude:
   - README.md
   - CNAME
   - integrations/
-
+  - setup.sh
+  - update-content.sh
+  
 # Collections
 collections:
   projects:
