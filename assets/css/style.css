@@ -1,0 +1,367 @@
+/* Reset & basics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 1.5em 0 0.8em;
+    color: #111;
+  }
+  
+  h1 {
+    font-size: 2.2em;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+  }
+  
+  h3 {
+    font-size: 1.4em;
+  }
+  
+  p {
+    margin: 1em 0;
+  }
+  
+  a {
+    color: #0366d6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #1385e5;
+    text-decoration: underline;
+  }
+  
+  ul, ol {
+    margin: 1em 0;
+    padding-left: 2em;
+  }
+  
+  /* Layout */
+  .wrapper {
+    max-width: 100%;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  /* Header */
+  .site-header {
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+  }
+  
+  .site-header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 600px) {
+    .site-header .container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
+  .site-header .site-name {
+    text-decoration: none;
+  }
+  
+  .site-header .site-name h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #111;
+  }
+  
+  .site-header .site-nav {
+    margin-top: 15px;
+  }
+  
+  @media (min-width: 600px) {
+    .site-header .site-nav {
+      margin-top: 0;
+    }
+  }
+  
+  .site-header .site-nav a {
+    margin-right: 20px;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .site-header .site-nav a:last-child {
+    margin-right: 0;
+  }
+  
+  .site-header .site-nav a:hover {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  .site-footer {
+    margin-top: 80px;
+    padding: 40px 0;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .site-footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 600px) {
+    .site-footer .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .site-footer .footer-col {
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    .site-footer .footer-col {
+      margin-bottom: 0;
+    }
+  }
+  
+  .site-footer .social-links a {
+    margin-right: 15px;
+    color: #666;
+  }
+  
+  .site-footer .social-links a:last-child {
+    margin-right: 0;
+  }
+  
+  .site-footer .social-links a:hover {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  /* Content styling */
+  #main {
+    min-height: 500px;
+    padding: 20px 0 60px;
+  }
+  
+  /* Home page */
+  .home .intro {
+    margin-bottom: 60px;
+  }
+  
+  .home .intro h1 {
+    margin-top: 0;
+  }
+  
+  .home .latest-posts h2 {
+    margin-bottom: 30px;
+  }
+  
+  /* Posts */
+  .posts {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .posts .post-item {
+    border-bottom: 1px solid #eee;
+    padding: 30px 0;
+  }
+  
+  .posts .post-item:first-child {
+    padding-top: 0;
+  }
+  
+  .posts .post-item:last-child {
+    border-bottom: none;
+  }
+  
+  .posts .post-item .post-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+  }
+  
+  .posts .post-item .post-title a {
+    color: #111;
+  }
+  
+  .posts .post-item .post-title a:hover {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .posts .post-item .post-meta {
+    color: #767676;
+    font-size: 0.85em;
+    margin-bottom: 15px;
+  }
+  
+  .posts .post-item .post-excerpt {
+    color: #333;
+  }
+  
+  .posts .post-item .read-more {
+    display: inline-block;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  /* Individual post */
+  .post .post-header {
+    margin-bottom: 30px;
+  }
+  
+  .post .post-title {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  .post .post-meta {
+    color: #767676;
+    font-size: 0.85em;
+  }
+  
+  .post .post-content {
+    margin-top: 30px;
+  }
+  
+  .post .post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2em auto;
+  }
+  
+  .post .post-content blockquote {
+    margin: 1.8em 0;
+    padding: 0.1em 1.5em;
+    border-left: 4px solid #eee;
+    color: #666;
+  }
+  
+  .post .post-content code, .post .post-content pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+    font-size: 0.9em;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+  }
+  
+  .post .post-content code {
+    padding: 2px 4px;
+  }
+  
+  .post .post-content pre {
+    padding: 1em;
+    overflow: auto;
+    margin: 1.5em 0;
+  }
+  
+  .post .post-content pre code {
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  /* Page */
+  .page h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .page .entry {
+    margin-top: 20px;
+  }
+  
+  /* Search */
+  .search-container {
+    margin-bottom: 40px;
+  }
+  
+  .search-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-container input:focus {
+    outline: none;
+    border-color: #0366d6;
+  }
+  
+  .search-container .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-container .search-results ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-container .search-results ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .search-container .search-results ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .search-container .search-results ul li h3 {
+    margin: 0 0 5px 0;
+  }
+  
+  .search-container .search-results ul li .date {
+    color: #767676;
+    font-size: 0.85em;
+  }
+  
+  /* 404 page */
+  .not-found {
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .not-found h1 {
+    font-size: 72px;
+    margin: 0;
+    color: #0366d6;
+  }
+  
+  .not-found h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
