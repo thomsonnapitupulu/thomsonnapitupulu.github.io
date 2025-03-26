@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     {% include head.html %}
   </head>
@@ -15,7 +15,9 @@
       {% include footer.html %}
     </div>
 
-    {% include analytics.html %}
+    {% if site.google_analytics %}
+      {% include analytics.html %}
+    {% endif %}
     <script src="{{ site.baseurl }}/assets/js/search.js"></script>
   </body>
 </html>
