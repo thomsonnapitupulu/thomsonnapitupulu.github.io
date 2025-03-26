@@ -4,7 +4,7 @@ title: Learning
 permalink: /learning/
 ---
 
-<h1>Learning</h1>
+<h1 class="text-2xl lg:text-4xl mt-8 mb-4 text-black font-extrabold tracking-tighter italic leading-tight">Learning</h1>
 
 <div class="posts">
   {% assign posts_by_year = site.posts | where: "category", "learning" | group_by_exp: "post", "post.date | date: '%Y'" %}

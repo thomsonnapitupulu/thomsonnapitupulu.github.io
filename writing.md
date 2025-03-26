@@ -4,7 +4,7 @@ title: Writing
 permalink: /writing/
 ---
 
-<h1>Writing</h1>
+<h1 class="text-2xl lg:text-4xl mt-8 mb-4 text-black font-extrabold tracking-tighter italic leading-tight">Writing</h1>
 
 <div class="posts">
   {% assign posts_by_year = site.posts | where: "category", "writing" | group_by_exp: "post", "post.date | date: '%Y'" %}
