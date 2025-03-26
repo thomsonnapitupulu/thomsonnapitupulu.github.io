@@ -2,17 +2,35 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div class="home">
+  <section class="intro">
+    <h1>Software Engineer. Builder. Learner.</h1>
+    <p>Welcome to my personal site. I'm a software engineer focused on building elegant, scalable, and user-friendly applications. Here, I share my projects, writings, and learning journey.</p>
+    <p>Check out my <a href="{{ site.baseurl }}/working">projects</a>, read my <a href="{{ site.baseurl }}/writing">articles</a>, or see what I'm <a href="{{ site.baseurl }}/learning">learning</a>.</p>
+  </section>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+  <section class="latest-posts">
+    <h2>Latest Posts</h2>
+    <div class="posts">
+      {% for post in site.posts limit:3 %}
+        <article class="post-item">
+          <h3 class="post-title">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <div class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%B %-d, %Y" }}
+            </time>
+            {% if post.category %}
+              <span class="category">• {{ post.category }}</span>
+            {% endif %}
+          </div>
+          <div class="post-excerpt">
+            {{ post.excerpt | truncatewords: 30 }}
+          </div>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 </div>
