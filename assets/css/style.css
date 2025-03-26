@@ -70,7 +70,7 @@ blockquote {
 
 /* Regular Header (for non-home pages) */
 header {
-  margin: 100px 0 35px;
+  margin: 30px 0 35px;
   width: 100%;
   overflow: hidden;
 }
@@ -256,7 +256,7 @@ pre code {
 @media (max-width: 700px) {
   /* Regular header responsive styles */
   header {
-    margin: 35px 0;
+    margin: 20px 0;
   }
   
   .site-title {
