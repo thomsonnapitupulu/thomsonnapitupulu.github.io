@@ -1,0 +1,3 @@
+For a proper Holman-style design, you'll want to add a simple favicon.ico file to your root directory.
+
+You can create a simple favicon using a tool like https://favicon.io/ - Holman uses a minimalist design with just a lowercase letter as his favicon.

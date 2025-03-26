@@ -1,21 +1,35 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-## Hi, I'm [Your Name].
+<h1>About</h1>
 
-I'm a software engineer based in [Your Location]. Currently, I work at [Your Company] where I'm focused on [what you do].
+Hi. I'm Thomson Napitupulu. I'm a software engineer based in [Your Location].
 
-### What I Do
+## Work
 
-I build things. Primarily, I write code and solve problems. I'm passionate about [your interests, e.g., distributed systems, frontend development, machine learning, etc.]. I've worked with [technologies you're experienced with] and I'm currently exploring [what you're learning].
+I work at [Your Company] where I focus on [what you do]. Previously, I worked at [previous company/experience].
 
-### Beyond the Code
+I'm passionate about [your interests, e.g., distributed systems, frontend development, machine learning, etc.]. I've worked with [technologies you're experienced with] and I'm currently exploring [what you're learning].
 
-When I'm not coding, I [your hobbies/interests outside of tech]. I believe in [your principles/philosophy, e.g., open source contribution, continuous learning, etc.].
+## Projects
 
-### Get in Touch
+I build things. You can find most of my code on [GitHub](https://github.com/{{ site.footer-links.github }}). 
 
-Feel free to reach out via [email](mailto:{{ site.footer-links.email }}) or connect with me on [LinkedIn](https://www.linkedin.com/in/{{ site.footer-links.linkedin }}). You can also check out my work on [GitHub](https://github.com/{{ site.footer-links.github }}).
+Some projects I've worked on:
+- [Project name]: [Brief description]
+- [Project name]: [Brief description]
+- [Project name]: [Brief description]
+
+## Writing
+
+I occasionally write about technology and software development. You can find my posts on [this site](/writing) and on [Medium](https://medium.com/@{{ site.footer-links.medium }}).
+
+## Elsewhere
+
+- [GitHub](https://github.com/{{ site.footer-links.github }})
+- [LinkedIn](https://www.linkedin.com/in/{{ site.footer-links.linkedin }})
+- [Medium](https://medium.com/@{{ site.footer-links.medium }})
+- [Email](mailto:{{ site.footer-links.email }})
