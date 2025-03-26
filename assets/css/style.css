@@ -68,7 +68,7 @@ blockquote {
   color: #777;
 }
 
-/* Header */
+/* Regular Header (for non-home pages) */
 header {
   margin: 100px 0 35px;
   width: 100%;
@@ -109,16 +109,48 @@ header {
   color: #227ce8;
 }
 
-/* Footer (minimal, if needed) */
-footer {
-  margin: 80px 0 50px;
-  font-size: 13px;
-  color: #777;
+/* Homepage Specific Styles */
+.home-page {
+  text-align: center;
 }
 
-/* Home Page */
-.home-content {
-  margin: 100px 0;
+.home-container {
+  max-width: 610px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-header {
+  margin-bottom: 100px; /* Offset for vertical centering */
+}
+
+.home-header h1 {
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+  color: #444;
+}
+
+.home-nav {
+  margin-top: 40px;
+}
+
+.home-nav a {
+  color: #444;
+  font-size: 17px;
+  margin: 0 10px;
+  text-transform: lowercase;
+}
+
+.home-nav a:hover {
+  color: #227ce8;
+  text-decoration: none;
 }
 
 /* Posts List */
@@ -222,6 +254,7 @@ pre code {
 
 /* For screens smaller than 700px */
 @media (max-width: 700px) {
+  /* Regular header responsive styles */
   header {
     margin: 35px 0;
   }
@@ -243,6 +276,21 @@ pre code {
     margin: 0 7px;
   }
   
+  /* Homepage responsive styles */
+  .home-header h1 {
+    font-size: 36px;
+  }
+  
+  .home-nav {
+    margin-top: 25px;
+  }
+  
+  .home-nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  /* Post list responsive styles */
   .post-date {
     width: 70px;
   }
