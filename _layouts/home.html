@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="{{ site.name }}">
+  <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
+  <title>{{ site.name }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="shortcut icon" href="/favicon.ico">
+  {% if site.google_analytics %}
+  {% include analytics.html %}
+  {% endif %}
+</head>
+<body class="home-page">
+  <section class="home-container">
+    <div class="home-header">
+      <h1>{{ site.name }}</h1>
+      <nav class="home-nav">
+        <a href="{{ site.baseurl }}/about">about</a>
+        <a href="{{ site.baseurl }}/working">working</a>
+        <a href="{{ site.baseurl }}/writing">writing</a>
+        <a href="{{ site.baseurl }}/learning">learning</a>
+      </nav>
+    </div>
+  </section>
+</body>
+</html>
