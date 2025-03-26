@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+## Hi, I'm [Your Name].
 
-### More Information
+I'm a software engineer based in [Your Location]. Currently, I work at [Your Company] where I'm focused on [what you do].
 
-A place to include any other types of information that you'd like to include about yourself.
+### What I Do
 
-### Contact me
+I build things. Primarily, I write code and solve problems. I'm passionate about [your interests, e.g., distributed systems, frontend development, machine learning, etc.]. I've worked with [technologies you're experienced with] and I'm currently exploring [what you're learning].
 
-[email@domain.com](mailto:email@domain.com)
+### Beyond the Code
+
+When I'm not coding, I [your hobbies/interests outside of tech]. I believe in [your principles/philosophy, e.g., open source contribution, continuous learning, etc.].
+
+### Get in Touch
+
+Feel free to reach out via [email](mailto:{{ site.footer-links.email }}) or connect with me on [LinkedIn](https://www.linkedin.com/in/{{ site.footer-links.linkedin }}). You can also check out my work on [GitHub](https://github.com/{{ site.footer-links.github }}).
