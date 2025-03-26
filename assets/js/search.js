@@ -9,12 +9,31 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Fetch posts data
     fetch('/search-data.json')
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+      })
       .then(data => {
         posts = data;
+        console.log('Search data loaded successfully');
       })
       .catch(error => {
         console.error('Error loading search data:', error);
+        // Try with baseurl
+        const baseUrl = document.querySelector('meta[name="baseurl"]')?.getAttribute('content') || '';
+        if (baseUrl) {
+          fetch(baseUrl + '/search-data.json')
+            .then(response => response.json())
+            .then(data => {
+              posts = data;
+              console.log('Search data loaded with baseurl');
+            })
+            .catch(err => {
+              console.error('Failed to load search data with baseurl:', err);
+            });
+        }
       });
     
     // Handle search input
