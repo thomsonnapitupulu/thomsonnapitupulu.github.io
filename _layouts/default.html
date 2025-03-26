@@ -1,56 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    {% include head.html %}
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
+    <div class="wrapper">
+      {% include header.html %}
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-            <div class="social-links">
-              {% include svg-icons.html %}
-            </div>
-          </div>
-          <div class="site-avatar"><img src="{{ site.avatar }}" /></div>
-
-        </header>
+      <div id="main" role="main" class="container">
+        {{ content }}
       </div>
+
+      {% include footer.html %}
     </div>
-
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-
-          <div class="site-info">
-            <p class="site-description">Currently work as System Developer in Brankas, Former AVP Enterprise Solution in PDS. Former technical lead in Shipper.id (Serie B), 10+ years in software engineering industry.</p>
-
-        </header>
-      </div>
-    </div>
-    <!-- <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          
-        </footer>
-      </div>
-    </div> -->
 
     {% include analytics.html %}
+    <script src="{{ site.baseurl }}/assets/js/search.js"></script>
   </body>
 </html>
