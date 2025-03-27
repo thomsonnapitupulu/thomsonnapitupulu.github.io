@@ -17,13 +17,12 @@ permalink: /cv/
         <span class="status-text">Open to opportunities</span>
       </div>
     </div>
-    <div class="profile-picture-accent"></div>
+    <!-- <div class="profile-picture-accent"></div> -->
   </div>
   <div class="profile-intro">
     <h2>Thomson Napitupulu</h2>
-    <p class="headline">Software Engineer | Backend Developer | Cloud Systems Specialist</p>
+    <p class="headline">Software Engineer/Backend Developer/System Developer</p>
     <p class="location">Kota Tangerang, Indonesia</p>
-    <p class="contact-info"><a href="mailto:thomson.p.napitupulu@gmail.com">thomson.p.napitupulu@gmail.com</a></p>
   </div>
 </div>
 
@@ -146,7 +145,7 @@ permalink: /cv/
 <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <h4>Brankas Teknologi Indonesia (<a target="_blank" rel="noopener noreferrer" href="https://www.brankas.com/">Brankas.com</a>)</h4>
+        <h4>Brankas (<a target="_blank" rel="noopener noreferrer" href="https://www.brankas.com/">Brankas.com</a>)</h4>
         <p class="role">System Developer <span class="role-meta">(September 2022 - November 2024, Singapore)</span></p>
         <div class="responsibilities">
           <ul>
@@ -188,7 +187,7 @@ permalink: /cv/
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <h4>Rupi Digital Indonesia (<a target="_blank" rel="noopener noreferrer" href="https://rupi.id/">Rupi.id</a>)</h4>
+        <h4>Rupi (<a target="_blank" rel="noopener noreferrer" href="https://rupi.id/">Rupi.id</a>)</h4>
         <p class="role">Principal Software Engineer <span class="role-meta">(November 2020 - May 2021, Indonesia)</span></p>
         <div class="responsibilities">
           <ul>
@@ -209,7 +208,7 @@ permalink: /cv/
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <h4>Shippindo Teknologi Logistik (<a target="_blank" rel="noopener noreferrer" href="https://shipper.id/">Shipper.id</a>)</h4>
+        <h4>Shipper (<a target="_blank" rel="noopener noreferrer" href="https://shipper.id/">Shipper.id</a>)</h4>
         <p class="role">Technical Lead <span class="role-meta">(January 2018 - April 2020, Indonesia)</span></p>
         <div class="responsibilities">
           <ul>
