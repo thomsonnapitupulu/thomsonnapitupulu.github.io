@@ -1772,8 +1772,8 @@ pre code {
 }
 
 .certification-icon {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1980,7 +1980,7 @@ pre code {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  z-index: 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   transform: rotate(-3deg);
 }
@@ -2056,11 +2056,13 @@ pre code {
 .status-dot:after {
   content: '';
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 16px;
+  height: 16px;
+  margin-left: -4px;
+  margin-top: -4px;
   background: rgba(76, 175, 80, 0.4);
   border-radius: 50%;
-  animation: pulse 1.5s infinite;
+  animation: pulse 1.2s infinite;
 }
 
 @keyframes pulse {

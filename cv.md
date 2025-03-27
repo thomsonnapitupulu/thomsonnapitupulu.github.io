@@ -12,16 +12,16 @@ permalink: /cv/
       <div class="profile-picture">
         <img src="/assets/images/thomson-pp.jpeg" alt="Thomson Napitupulu">
       </div>
+    </div>
       <div class="profile-status">
         <span class="status-dot"></span>
-        <span class="status-text">Open to opportunities</span>
+        <span class="status-text">#OpenForWork</span>
       </div>
-    </div>
     <!-- <div class="profile-picture-accent"></div> -->
   </div>
   <div class="profile-intro">
     <h2>Thomson Napitupulu</h2>
-    <p class="headline">Software Engineer/Backend Developer/System Developer</p>
+    <p class="headline">Software Engineer | Backend Developer | System Developer</p>
     <p class="location">Kota Tangerang, Indonesia</p>
   </div>
 </div>
@@ -29,7 +29,7 @@ permalink: /cv/
 <div class="profile-section">
   <h3>About Me</h3>
   <p>
-    Highly motivated and results-oriented software engineer with 10+ years of experience, specializing in building scalable backend systems and cloud-native applications. Proven ability to lead projects and collaborate effectively with cross-functional teams. Expertise in Golang, PostgreSQL, and GCP, with a strong understanding of cloud platforms, Kubernetes, and CI/CD. Passionate about driving innovation in fast-paced environments.
+    Highly motivated and results-oriented software engineer with 10+ years of experience, specializing in building scalable backend systems and cloud-native applications. Proven ability to lead projects and collaborate effectively with cross-functional teams. Expertise in Golang, PostgreSQL, AWS and GCP, with a strong understanding of cloud platforms, Kubernetes, and CI/CD. Passionate about driving innovation in fast-paced environments.
   </p>
 </div>
 
@@ -111,7 +111,7 @@ permalink: /cv/
         </div>
         <div class="skill-icon">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="CI/CD">
-          <span>CI/CD</span>
+          <span>Jenkins (CI/CD)</span>
         </div>
       </div>
     </div>
@@ -324,70 +324,27 @@ permalink: /cv/
 <div class="profile-section">
   <h3>Certifications</h3>
   <div class="certification-grid">
-    <div class="certification-tile">
+    <div class="certification-tile" onclick="window.open('https://www.dgbadge.com/certified/member/8618924735', '_blank');">
       <div class="certification-icon">
-        <img src="https://www.credly.com/images/badge-icons/ai-agent-systems-crewai.png" alt="AI Agent Systems">
-      </div>
-      <div class="certification-info">
-        <h4>Multi AI Agent Systems with crewAI</h4>
-        <p>DeepLearning.AI</p>
-      </div>
-      <div class="certification-hover">
-        <p>Mastered development of multi-agent AI systems for complex task automation and collaborative problem-solving</p>
-      </div>
-    </div>
-    
-    <div class="certification-tile">
-      <div class="certification-icon">
-        <img src="https://www.usaii.org/wp-content/uploads/2022/03/USAII-logo.png" alt="CAIE">
+        <img src="https://www.usaii.org/content/images/caie.png" alt="CAIE">
       </div>
       <div class="certification-info">
         <h4>Certified Artificial Intelligence Engineer</h4>
         <p>USAII • January 2025</p>
       </div>
       <div class="certification-hover">
-        <p>Professional certification validating expertise in designing, implementing, and managing AI systems</p>
+        <p>Professional certification validating expertise in designing, implementing, and managing AI systems. Click to see the credential.</p>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="profile-section">
+  <h3>Publications</h3>
+  <div class="additional-info">
+    <p>2025 - Enhancing Software Reliability through Maturity Analysis <a href="https://drive.google.com/file/d/1OEfRbtYO4NJMG4tsjMwfOdYHtgBPIlBd/view?usp=drive_link" target="_blank">(PDF)</a>  </p>
+    <p>2018 - Implementation of Elasticsearch Search Engine on Order Management System Data <a href="https://www.ijcaonline.org/archives/volume181/number8/fitrianah-2018-ijca-917617.pdf" target="_blank">(PDF)</a></p>
     
-    <div class="certification-tile">
-      <div class="certification-icon">
-        <img src="https://dist.neo4j.com/wp-content/uploads/20210423165722/neo4j-logo-2020-1.svg" alt="Neo4j">
-      </div>
-      <div class="certification-info">
-        <h4>Neo4j Fundamentals</h4>
-        <p>Neo4j</p>
-      </div>
-      <div class="certification-hover">
-        <p>Core skills in graph database modeling, querying with Cypher, and implementing graph-based solutions</p>
-      </div>
-    </div>
-    
-    <div class="certification-tile">
-      <div class="certification-icon">
-        <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Golang">
-      </div>
-      <div class="certification-info">
-        <h4>Golang Jumpstart</h4>
-        <p>Udemy</p>
-      </div>
-      <div class="certification-hover">
-        <p>Comprehensive training in Go programming language fundamentals, concurrency patterns, and best practices</p>
-      </div>
-    </div>
-    
-    <div class="certification-tile">
-      <div class="certification-icon">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
-      </div>
-      <div class="certification-info">
-        <h4>Crash Course Python</h4>
-        <p>Google Training • April 2021</p>
-      </div>
-      <div class="certification-hover">
-        <p>Google-certified Python programming skills covering data structures, automation, and practical applications</p>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -395,7 +352,7 @@ permalink: /cv/
   <h3>Additional Information</h3>
   <div class="additional-info">
     <h4>Courses</h4>
-    <p>Scrum Framework (Agile methodology), JMeter, Google Cloud certificate preparations</p>
+    <p>Multi AI Agent Systems with crewAI, Neo4j Fundamentals, Scrum Framework (Agile methodology), Golang Jumpstart, Crash Course Python, Google Cloud certificate preparations</p>
     
     <h4>Organizations</h4>
     <p>Volunteered in church youth community</p>
@@ -421,13 +378,13 @@ permalink: /cv/
       <div class="connect-hover">Connect professionally and explore my career history</div>
     </a>
     
-    <a href="https://medium.com/@{{ site.footer-links.medium }}" target="_blank" class="connect-card medium">
+    <!-- <a href="https://medium.com/@{{ site.footer-links.medium }}" target="_blank" class="connect-card medium">
       <div class="connect-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"/></svg>
       </div>
       <div class="connect-text">Medium</div>
       <div class="connect-hover">Read my articles and insights on tech and software engineering</div>
-    </a>
+    </a> -->
     
     <a href="mailto:thomson.p.napitupulu@gmail.com" class="connect-card email">
       <div class="connect-icon">
