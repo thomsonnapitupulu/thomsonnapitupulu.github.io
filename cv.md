@@ -26,43 +26,103 @@ permalink: /cv/
   <div class="skills-grid">
     <div class="skill-category">
       <h4>Programming Languages</h4>
-      <ul>
-        <li>Golang</li>
-        <li>PHP</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>C#</li>
-      </ul>
+      <div class="skill-icons">
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Golang">
+          <span>Golang</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+          <span>PHP</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+          <span>Python</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+          <span>Java</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+          <span>C#</span>
+        </div>
+      </div>
     </div>
     <div class="skill-category">
       <h4>Databases</h4>
-      <ul>
-        <li>PostgreSQL</li>
-        <li>MySQL</li>
-        <li>MongoDB</li>
-        <li>Neo4J</li>
-      </ul>
+      <div class="skill-icons">
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+          <span>PostgreSQL</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+          <span>MySQL</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+          <span>MongoDB</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg" alt="Neo4J">
+          <span>Neo4J</span>
+        </div>
+      </div>
     </div>
     <div class="skill-category">
       <h4>Cloud & DevOps</h4>
-      <ul>
-        <li>Google Cloud Platform</li>
-        <li>AWS</li>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-        <li>Git</li>
-        <li>CI/CD</li>
-      </ul>
+      <div class="skill-icons">
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud Platform">
+          <span>GCP</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS">
+          <span>AWS</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+          <span>Docker</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+          <span>Kubernetes</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+          <span>Git</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="CI/CD">
+          <span>CI/CD</span>
+        </div>
+      </div>
     </div>
     <div class="skill-category">
       <h4>Web Technologies</h4>
-      <ul>
-        <li>Laravel</li>
-        <li>React</li>
-        <li>CodeIgniter</li>
-        <li>.NET MVC</li>
-      </ul>
+      <div class="skill-icons">
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel">
+          <span>Laravel</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+          <span>React</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" alt="CodeIgniter">
+          <span>CodeIgniter</span>
+        </div>
+        <div class="skill-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET MVC">
+          <span>.NET MVC</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>
