@@ -2200,3 +2200,71 @@ pre code {
   color: #666;
   margin-top: 10px;
 }
+
+/* Collapsible responsibilities */
+.responsibilities-toggle {
+  margin-top: 10px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #227ce8;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  color: #0e5cbe;
+}
+
+.toggle-text {
+  margin-right: 5px;
+}
+
+.toggle-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 14px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f0f8ff;
+  color: #227ce8;
+  font-weight: bold;
+  transition: transform 0.1s ease, background-color 0.1s ease;
+}
+
+.toggle-btn[aria-expanded="true"] .toggle-icon {
+  transform: rotate(45deg);
+  background-color: #e6f0fd;
+}
+
+.responsibilities {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease;
+  margin-top: 0;
+}
+
+.toggle-btn[aria-expanded="true"] + .responsibilities {
+  max-height: 1000px; /* Large enough to fit all content */
+  margin-top: 10px;
+}
+
+.responsibilities ul {
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.responsibilities li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
