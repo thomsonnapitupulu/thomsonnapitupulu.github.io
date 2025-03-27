@@ -1634,3 +1634,10 @@ pre code {
   color: #227ce8;
   font-weight: 500;
 }
+
+.timeline-content .role-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+  font-weight: normal;
+}
