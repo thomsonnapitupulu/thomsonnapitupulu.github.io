@@ -256,28 +256,59 @@ permalink: /cv/
 
 <div class="profile-section">
   <h3>Education</h3>
-  <div class="education-item">
-    <h4>Swiss German University, Tangerang, Indonesia</h4>
-    <p class="degree">Master of Information Technology</p>
-    <p class="details">Concentration: Data Science Business Informatics</p>
-    <p class="duration">2023 - February 2025</p>
-    <p class="details">GPA: 3.65 / 4.0</p>
-  </div>
-  
-  <div class="education-item">
-    <h4>Universitas Mercubuana, Jakarta, Indonesia</h4>
-    <p class="degree">Bachelor of Informatics Engineering</p>
-    <p class="duration">2015 - 2017</p>
-    <p class="details">GPA: 3.21 / 4.0</p>
-  </div>
-  
-  <div class="education-item">
-    <h4>Institut Teknologi Del, Toba, Indonesia</h4>
-    <p class="degree">Diploma Level III of Informatics Engineering</p>
-    <p class="duration">2011 - 2014</p>
-    <p class="details">GPA: 3.16 / 4.0</p>
-    <p class="details">Honors: Google Student Ambassador 2013</p>
-    <p class="details">Awards: National Finalist in Programming Contest at Gemastik 2012</p>
+  <div class="education-cards">
+    <div class="education-card">
+      <div class="education-logo">
+        <img src="{{ site.baseurl }}/assets/images/swiss_german_university_logo.jpeg" alt="Swiss German University">
+      </div>
+      <div class="education-content">
+        <h4>Swiss German University</h4>
+        <p class="degree">Master of Information Technology</p>
+        <p class="edu-meta">Data Science Business Informatics | 2023-2025 | GPA: 3.65/4.0</p>
+        <div class="education-details">
+          <ul>
+            <li>Specialized in data science applications for business analytics</li>
+            <li>Advanced coursework in machine learning and AI systems</li>
+            <li>Developed predictive models for business intelligence applications</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="education-card">
+      <div class="education-logo">
+        <img src="{{ site.baseurl }}/assets/images/universitas_mercu_buana_logo.jpeg" alt="Universitas Mercubuana">
+      </div>
+      <div class="education-content">
+        <h4>Universitas Mercubuana</h4>
+        <p class="degree">Bachelor of Informatics Engineering</p>
+        <p class="edu-meta">2015-2017 | GPA: 3.21/4.0</p>
+        <div class="education-details">
+          <ul>
+            <li>Focus on software engineering and systems development</li>
+            <li>Completed practical projects in web and mobile application development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="education-card">
+      <div class="education-logo">
+        <img src="{{ site.baseurl }}/assets/images/itdel_logo.jpeg" alt="Institut Teknologi Del">
+      </div>
+      <div class="education-content">
+        <h4>Institut Teknologi Del</h4>
+        <p class="degree">Diploma Level III of Informatics Engineering</p>
+        <p class="edu-meta">2011-2014 | GPA: 3.16/4.0</p>
+        <div class="education-details">
+          <ul>
+            <li>Google Student Ambassador (2013)</li>
+            <li>National Finalist in Programming Contest at Gemastik (2012)</li>
+            <li>Core coursework in programming fundamentals and software development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

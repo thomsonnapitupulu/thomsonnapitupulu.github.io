@@ -1454,7 +1454,7 @@ pre code {
 
 .timeline-item {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .timeline-marker {
@@ -1640,4 +1640,104 @@ pre code {
   color: #666;
   margin-bottom: 12px;
   font-weight: normal;
+}
+
+/* Education cards */
+.education-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.education-card {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+  position: relative;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.education-logo {
+  flex: 0 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: #f9f9f9;
+  border-right: 1px solid #eee;
+}
+
+.education-logo img {
+  max-width: 80px;
+  max-height: 80px;
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
+
+.education-card:hover .education-logo img {
+  filter: grayscale(0%);
+}
+
+.education-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.education-content h4 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.education-content .degree {
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.education-content .edu-meta {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.education-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.education-card:hover .education-details {
+  max-height: 200px;
+}
+
+.education-details ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 10px 0 0;
+}
+
+.education-details li {
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #555;
+}
+
+.education-details li:before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #227ce8;
 }
