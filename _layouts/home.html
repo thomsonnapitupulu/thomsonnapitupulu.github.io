@@ -9,7 +9,10 @@
   <title>{{ site.name }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favicon/favicon/apple-touch-icon.png">
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/favicon/site.webmanifest">
   {% if site.google_analytics %}
   {% include analytics.html %}
   {% endif %}
@@ -24,14 +27,14 @@
       
             <div class="text-gray-700 text-lg font-light leading-loose mt-2">
                 A seasoned <strong class="font-bold text-gray-700">software engineer</strong> with <strong class="font-bold text-gray-700">10+ years</strong> of experience specializing in scalable <strong class="font-bold text-gray-700">backend systems</strong> and <strong class="font-bold text-gray-700">cloud-native applications.</strong>
-                Currently <a href="https://www.linkedin.com/in/thomsonpnapitupulu/">#OpenForWork</a> and actively looking for &#10024;an exciting new journey&#10024;! 
+                Currently looking for &#10024;an exciting new journey&#10024;! <a href="https://www.linkedin.com/in/thomsonpnapitupulu/">#OpenForWork</a>
             </div>
           </div>
       
           <div class="my-8 lg:text-right">
             <ul class="text-2xl tracking-tight nav-links">
               <li class="lg:inline">
-                <a href="{{ site.baseurl }}/about" class="md:px-6 py-4">CV</a>
+                <a href="{{ site.baseurl }}/cv" class="md:px-6 py-4">CV</a>
               </li>
               <li class="lg:inline">
                 <a href="{{ site.baseurl }}/working" class="md:px-6 py-4">Projects</a>
