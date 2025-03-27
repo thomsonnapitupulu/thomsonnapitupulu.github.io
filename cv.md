@@ -4,10 +4,23 @@ title: CV
 permalink: /cv/
 ---
 
-<h1 class="text-2xl lg:text-4xl mt-8 mb-4 text-black font-extrabold tracking-tighter italic leading-tight">Thomson's CV</h1>
+<h1 class="text-2xl lg:text-4xl mt-8 mb-4 text-black font-extrabold tracking-tighter italic leading-tight">CV</h1>
 
 <div class="profile-header">
+  <div class="profile-picture-container">
+    <div class="profile-picture-frame">
+      <div class="profile-picture">
+        <img src="/assets/images/thomson-pp.jpeg" alt="Thomson Napitupulu">
+      </div>
+      <div class="profile-status">
+        <span class="status-dot"></span>
+        <span class="status-text">Open to opportunities</span>
+      </div>
+    </div>
+    <div class="profile-picture-accent"></div>
+  </div>
   <div class="profile-intro">
+    <h2>Thomson Napitupulu</h2>
     <p class="headline">Software Engineer | Backend Developer | Cloud Systems Specialist</p>
     <p class="location">Kota Tangerang, Indonesia</p>
     <p class="contact-info"><a href="mailto:thomson.p.napitupulu@gmail.com">thomson.p.napitupulu@gmail.com</a></p>
