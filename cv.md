@@ -314,30 +314,70 @@ permalink: /cv/
 
 <div class="profile-section">
   <h3>Certifications</h3>
-  <div class="certification-items">
-    <div class="certification-item">
-      <h4>Multi AI Agent Systems with crewAI</h4>
-      <p class="issuer">Issued by DeepLearning.AI</p>
+  <div class="certification-grid">
+    <div class="certification-tile">
+      <div class="certification-icon">
+        <img src="https://www.credly.com/images/badge-icons/ai-agent-systems-crewai.png" alt="AI Agent Systems">
+      </div>
+      <div class="certification-info">
+        <h4>Multi AI Agent Systems with crewAI</h4>
+        <p>DeepLearning.AI</p>
+      </div>
+      <div class="certification-hover">
+        <p>Mastered development of multi-agent AI systems for complex task automation and collaborative problem-solving</p>
+      </div>
     </div>
     
-    <div class="certification-item">
-      <h4>Certified Artificial Intelligence Engineer (CAIE)</h4>
-      <p class="issuer">Issued by USAII - January 2025</p>
+    <div class="certification-tile">
+      <div class="certification-icon">
+        <img src="https://www.usaii.org/wp-content/uploads/2022/03/USAII-logo.png" alt="CAIE">
+      </div>
+      <div class="certification-info">
+        <h4>Certified Artificial Intelligence Engineer</h4>
+        <p>USAII • January 2025</p>
+      </div>
+      <div class="certification-hover">
+        <p>Professional certification validating expertise in designing, implementing, and managing AI systems</p>
+      </div>
     </div>
     
-    <div class="certification-item">
-      <h4>Neo4j Fundamentals</h4>
-      <p class="issuer">Issued by Neo4j</p>
+    <div class="certification-tile">
+      <div class="certification-icon">
+        <img src="https://dist.neo4j.com/wp-content/uploads/20210423165722/neo4j-logo-2020-1.svg" alt="Neo4j">
+      </div>
+      <div class="certification-info">
+        <h4>Neo4j Fundamentals</h4>
+        <p>Neo4j</p>
+      </div>
+      <div class="certification-hover">
+        <p>Core skills in graph database modeling, querying with Cypher, and implementing graph-based solutions</p>
+      </div>
     </div>
     
-    <div class="certification-item">
-      <h4>Golang Jumpstart</h4>
-      <p class="issuer">Issued by Udemy</p>
+    <div class="certification-tile">
+      <div class="certification-icon">
+        <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Golang">
+      </div>
+      <div class="certification-info">
+        <h4>Golang Jumpstart</h4>
+        <p>Udemy</p>
+      </div>
+      <div class="certification-hover">
+        <p>Comprehensive training in Go programming language fundamentals, concurrency patterns, and best practices</p>
+      </div>
     </div>
     
-    <div class="certification-item">
-      <h4>Crash Course Python</h4>
-      <p class="issuer">Issued by Google Training - April 2021</p>
+    <div class="certification-tile">
+      <div class="certification-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+      </div>
+      <div class="certification-info">
+        <h4>Crash Course Python</h4>
+        <p>Google Training • April 2021</p>
+      </div>
+      <div class="certification-hover">
+        <p>Google-certified Python programming skills covering data structures, automation, and practical applications</p>
+      </div>
     </div>
   </div>
 </div>
