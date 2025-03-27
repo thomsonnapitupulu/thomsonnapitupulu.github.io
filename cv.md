@@ -352,7 +352,7 @@ permalink: /cv/
   <h3>Additional Information</h3>
   <div class="additional-info">
     <h4>Courses</h4>
-    <p>Multi AI Agent Systems with crewAI, Neo4j Fundamentals, Scrum Framework (Agile methodology), Golang Jumpstart, Crash Course Python, Google Cloud certificate preparations</p>
+    <p><a href="https://learn.deeplearning.ai/accomplishments/d6315ef1-9a84-47fd-bac1-c4c9396b1705" target="_blank">Multi AI Agent Systems with crewAI</a>, <a href="https://www.hackerrank.com/certificates/6ce64313698d" target="_blank">Golang (Basic)</a>, <a href="" target="_blank">Golang Jumpstart</a>, <a href="https://graphacademy.neo4j.com/c/a481ccd2-9a66-4e74-b10d-629d14453bbf/" target="_blank">Neo4j Fundamentals</a>, <a href="https://www.educative.io/verify-certificate/qjv3oKCR4G2kX6PDmUvOyKPVAXJBcK" target="_blank">Become an Effective Software Engineering Manager</a>, <a href="https://www.coursera.org/account/accomplishments/verify/8PPFSC9V2XVV" target="_blank">Google Cloud Fundamentals</a>, <a href="https://www.coursera.org/account/accomplishments/verify/5FJRTVM7FZ7B" target="_blank">Crash Course Python</a>, <a href="https://www.hackerrank.com/certificates/40b3a1e89aa6" target="_blank">SQL (Basic)</a></p>
     
     <h4>Organizations</h4>
     <p>Volunteered in church youth community</p>
