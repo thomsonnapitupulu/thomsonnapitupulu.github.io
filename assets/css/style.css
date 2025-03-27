@@ -600,7 +600,7 @@ img,video {
 }
 
 .p-4 {
-  padding: 1rem
+  padding: 0 1rem
 }
 
 .p-8 {
@@ -839,10 +839,10 @@ a.footer-link:hover {
 }
 
 .logo,.logo a {
-  --tw-gradient-from: #fb5607;
+  --tw-gradient-from: #7474BF;
   --tw-gradient-to: rgba(251,86,7,0);
   --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
-  --tw-gradient-to: #ff006e;
+  --tw-gradient-to: #348AC7;
   -webkit-background-clip: text;
   background-clip: text;
   background-image: linear-gradient(to right,var(--tw-gradient-stops));
@@ -1142,7 +1142,7 @@ blockquote {
 
 /* Regular Header (for non-home pages) */
 header {
-  margin: 30px 0 35px;
+  margin: 0 0 35px;
   width: 100%;
   overflow: hidden;
 }
