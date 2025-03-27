@@ -147,16 +147,22 @@ permalink: /cv/
       <div class="timeline-content">
         <h4>Brankas (<a target="_blank" rel="noopener noreferrer" href="https://www.brankas.com/">Brankas.com</a>)</h4>
         <p class="role">System Developer <span class="role-meta">(September 2022 - November 2024, Singapore)</span></p>
-        <div class="responsibilities">
-          <ul>
-            <li>Developed Banking API and Scraper integration systems using Golang, PostgreSQL, and Kubernetes on GCP.</li>
-            <li>Designed database schemas with migration scripts and version history.</li>
-            <li>Collaborated with Product teams to define and refine product requirements.</li>
-            <li>Conducted code reviews ensuring adherence to standards and feature integrity.</li>
-            <li>Optimized transaction processing time from 3 minutes to under 1 minute.</li>
-            <li>Established 6 new bank payment destinations across the Philippines and Indonesia.</li>
-            <li>Created and presented technical documentation for the Integration product.</li>
-          </ul>
+        <div class="responsibilities-toggle">
+          <button class="toggle-btn" aria-expanded="false">
+            <span class="toggle-text">View responsibilities</span>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="responsibilities">
+            <ul>
+              <li>Developed Banking API and Scraper integration systems using Golang, PostgreSQL, and Kubernetes on GCP.</li>
+                <li>Designed database schemas with migration scripts and version history.</li>
+                <li>Collaborated with Product teams to define and refine product requirements.</li>
+                <li>Conducted code reviews ensuring adherence to standards and feature integrity.</li>
+                <li>Optimized transaction processing time from 3 minutes to under 1 minute.</li>
+                <li>Established 6 new bank payment destinations across the Philippines and Indonesia.</li>
+                <li>Created and presented technical documentation for the Integration product.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -167,18 +173,24 @@ permalink: /cv/
       <div class="timeline-content">
         <h4>Peruri Digital Security (<a target="_blank" rel="noopener noreferrer" href="https://pds.id/">PDS</a>)</h4>
         <p class="role">AVP in Enterprise Solution <span class="role-meta">(June 2021 - August 2022, Indonesia)</span></p>
-        <div class="responsibilities">
-          <ul>
-            <li>Developed backbone systems for digital product distribution using Golang, PostgreSQL, and GCP.</li>
-            <li>Bridged communication between product teams and engineers for clear requirement definition.</li>
-            <li>Implemented microservice architecture with Domain-Driven Design using Golang Echo Framework.</li>
-            <li>Led a team of 18 engineers to deliver Peruri Digital Product and electronic Meterai solutions.</li>
-            <li>Designed distributed system architecture for API gateway and management applications.</li>
-            <li>Improved performance by implementing asynchronous processing with sub-500ms latency.</li>
-            <li>Conducted technical knowledge sharing sessions on various engineering topics.</li>
-            <li>Guided Scrum implementation with measurable goals aligned to company OKRs.</li>
-            <li>Coordinated cross-functional teams to ensure on-time product development.</li>
-          </ul>
+        <div class="responsibilities-toggle">
+          <button class="toggle-btn" aria-expanded="false">
+            <span class="toggle-text">View responsibilities</span>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="responsibilities">
+            <ul>
+              <li>Developed backbone systems for digital product distribution using Golang, PostgreSQL, and GCP.</li>
+              <li>Bridged communication between product teams and engineers for clear requirement definition.</li>
+              <li>Implemented microservice architecture with Domain-Driven Design using Golang Echo Framework.</li>
+              <li>Led a team of 18 engineers to deliver Peruri Digital Product and electronic Meterai solutions.</li>
+              <li>Designed distributed system architecture for API gateway and management applications.</li>
+              <li>Improved performance by implementing asynchronous processing with sub-500ms latency.</li>
+              <li>Conducted technical knowledge sharing sessions on various engineering topics.</li>
+              <li>Guided Scrum implementation with measurable goals aligned to company OKRs.</li>
+              <li>Coordinated cross-functional teams to ensure on-time product development.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -189,17 +201,23 @@ permalink: /cv/
       <div class="timeline-content">
         <h4>Rupi (<a target="_blank" rel="noopener noreferrer" href="https://rupi.id/">Rupi.id</a>)</h4>
         <p class="role">Principal Software Engineer <span class="role-meta">(November 2020 - May 2021, Indonesia)</span></p>
-        <div class="responsibilities">
-          <ul>
-            <li>Led 16 engineers across Frontend, Mobile, Backend, and QA teams.</li>
-            <li>Established code review best practices and standards.</li>
-            <li>Improved sprint efficiency and Agile implementation.</li>
-            <li>Created story point guidelines for more accurate estimations.</li>
-            <li>Facilitated backlog grooming sessions with product owners.</li>
-            <li>Conducted sprint retrospectives and implemented process improvements.</li>
-            <li>Developed engineering velocity metrics and performance reporting.</li>
-            <li>Held monthly 1-on-1 meetings for professional development and team alignment.</li>
-          </ul>
+        <div class="responsibilities-toggle">
+          <button class="toggle-btn" aria-expanded="false">
+            <span class="toggle-text">View responsibilities</span>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="responsibilities">
+            <ul>
+              <li>Led 16 engineers across Frontend, Mobile, Backend, and QA teams.</li>
+              <li>Established code review best practices and standards.</li>
+              <li>Improved sprint efficiency and Agile implementation.</li>
+              <li>Created story point guidelines for more accurate estimations.</li>
+              <li>Facilitated backlog grooming sessions with product owners.</li>
+              <li>Conducted sprint retrospectives and implemented process improvements.</li>
+              <li>Developed engineering velocity metrics and performance reporting.</li>
+              <li>Held monthly 1-on-1 meetings for professional development and team alignment.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -210,36 +228,54 @@ permalink: /cv/
       <div class="timeline-content">
         <h4>Shipper (<a target="_blank" rel="noopener noreferrer" href="https://shipper.id/">Shipper.id</a>)</h4>
         <p class="role">Technical Lead <span class="role-meta">(January 2018 - April 2020, Indonesia)</span></p>
-        <div class="responsibilities">
-          <ul>
-            <li>Developed warehouse management system backend using Golang.</li>
-            <li>Collaborated with third-party engineers on white-label portal development.</li>
-            <li>Migrated architecture from PHP-MySQL to Golang-PostgreSQL-AWS stack.</li>
-            <li>Led a team of 6 engineers for daily task management and issue resolution.</li>
-            <li>Provided constructive feedback during code reviews.</li>
-            <li>Established CI/CD pipeline with Jenkins in collaboration with DevOps.</li>
-            <li>Supported QA team in creating effective integration tests.</li>
-          </ul>
+        <div class="responsibilities-toggle">
+          <button class="toggle-btn" aria-expanded="false">
+            <span class="toggle-text">View responsibilities</span>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="responsibilities">
+            <ul>
+              <li>Developed warehouse management system backend using Golang.</li>
+              <li>Collaborated with third-party engineers on white-label portal development.</li>
+              <li>Migrated architecture from PHP-MySQL to Golang-PostgreSQL-AWS stack.</li>
+              <li>Led a team of 6 engineers for daily task management and issue resolution.</li>
+              <li>Provided constructive feedback during code reviews.</li>
+              <li>Established CI/CD pipeline with Jenkins in collaboration with DevOps.</li>
+              <li>Supported QA team in creating effective integration tests.</li>
+            </ul>
+          </div>
         </div>
         <p class="role">Project Manager <span class="role-meta">(August - December 2017, Indonesia)</span></p>
-        <div class="responsibilities">
-          <ul>
-            <li>Maintained existing systems using PHP CodeIgniter.</li>
-            <li>Led a team of 5 engineers handling daily operations and troubleshooting.</li>
-            <li>Partnered with product owners to define deliverable requirements.</li>
-            <li>Worked with QA to create comprehensive test scenarios.</li>
-            <li>Coordinated with Onboarding and Sales teams for smooth product releases.</li>
-            <li>Participated in technical recruitment of software engineers.</li>
-          </ul>
+        <div class="responsibilities-toggle">
+          <button class="toggle-btn" aria-expanded="false">
+            <span class="toggle-text">View responsibilities</span>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="responsibilities">
+            <ul>
+              <li>Maintained existing systems using PHP CodeIgniter.</li>
+              <li>Led a team of 5 engineers handling daily operations and troubleshooting.</li>
+              <li>Partnered with product owners to define deliverable requirements.</li>
+              <li>Worked with QA to create comprehensive test scenarios.</li>
+              <li>Coordinated with Onboarding and Sales teams for smooth product releases.</li>
+              <li>Participated in technical recruitment of software engineers.</li>
+            </ul>
+          </div>
         </div>
         <p class="role">Software Engineer <span class="role-meta">(June 2016 - July 2017, Indonesia)</span></p>
-        <div class="responsibilities">
-          <ul>
-            <li>Built and maintained HQ Web Portal using PHP CodeIgniter.</li>
-            <li>Developed Customer Order Management Web Portal using PHP CodeIgniter.</li>
-            <li>Created seed project templates using PHP CodeIgniter.</li>
-            <li>Implemented web plugins and widgets using CodeIgniter and native PHP.</li>
-          </ul>
+        <div class="responsibilities-toggle">
+          <button class="toggle-btn" aria-expanded="false">
+            <span class="toggle-text">View responsibilities</span>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="responsibilities">
+            <ul>
+              <li>Built and maintained HQ Web Portal using PHP CodeIgniter.</li>
+              <li>Developed Customer Order Management Web Portal using PHP CodeIgniter.</li>
+              <li>Created seed project templates using PHP CodeIgniter.</li>
+              <li>Implemented web plugins and widgets using CodeIgniter and native PHP.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -251,15 +287,21 @@ permalink: /cv/
         <h4>Moonlay Technologies (<a target="_blank" rel="noopener noreferrer" href="https://moonlay.com/">Moonlay</a>)</h4>
         <h4></h4>
         <p class="role">Software Engineer <span class="role-meta">(November 2014 - November 2016, Indonesia)</span></p>
-        <div class="responsibilities">
-          <ul>
-            <li>Developed fashion e-commerce Android app using Java.</li>
-            <li>Built logistics internal system for JET Express using C# .NET MVC.</li>
-            <li>Created Citibank Mutual Fund transaction system with C# .NET MVC.</li>
-            <li>Implemented flight booking Android app for Travorama using Java.</li>
-            <li>Contributed to Sinarmas ERP System using C# .NET MVC Framework.</li>
-            <li>Managed daily tasks through Microsoft Teams and Agile practices.</li>
-          </ul>
+        <div class="responsibilities-toggle">
+          <button class="toggle-btn" aria-expanded="false">
+            <span class="toggle-text">View responsibilities</span>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="responsibilities">
+            <ul>
+              <li>Developed fashion e-commerce Android app using Java.</li>
+              <li>Built logistics internal system for JET Express using C# .NET MVC.</li>
+              <li>Created Citibank Mutual Fund transaction system with C# .NET MVC.</li>
+              <li>Implemented flight booking Android app for Travorama using Java.</li>
+              <li>Contributed to Sinarmas ERP System using C# .NET MVC Framework.</li>
+              <li>Managed daily tasks through Microsoft Teams and Agile practices.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
