@@ -2210,11 +2210,11 @@ pre code {
   background: none;
   border: none;
   color: #227ce8;
-  font-size: 14px;
-  font-weight: 500;
+  /* font-size: 14px; */
+  /* font-weight: 500; */
   cursor: pointer;
   padding: 0;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   transition: color 0.3s ease;
 }
