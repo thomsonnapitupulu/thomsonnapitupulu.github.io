@@ -9,7 +9,10 @@
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favicon/apple-touch-icon.png">
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/favicon/site.webmanifest">
   {% if site.google_analytics %}
   {% include analytics.html %}
   {% endif %}
@@ -23,7 +26,7 @@
     <div class="lg:flex-grow lg:text-right text-md lg:text-xl">
       <ul class="tracking-tight nav-links">
         <li class="inline">
-          <a href="/about" class="lg:px-6 pr-4 py-4">About</a>
+          <a href="/cv" class="lg:px-6 pr-4 py-4">CV</a>
         </li>
         <li class="inline">
           <a href="/working" class="lg:px-6 pr-4 py-4">Projects</a>
