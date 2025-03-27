@@ -15,16 +15,25 @@
   {% endif %}
 </head>
 <body>
+  <header class="lg:flex items-center p-4">
+    <div class="logo lg:flex-grow tracking-tighter">
+      <a href="/" class="bg-clip-text text-transparent bg-gradient-to-r from-my-green to-my-light-blue text-5xl font-extrabold">Thomson Napitupulu</a>
+    </div>
+    
+    <div class="lg:flex-grow lg:text-right text-md lg:text-xl">
+      <ul class="tracking-tight nav-links">
+        <li class="inline">
+          <a href="/about" class="lg:px-6 pr-4 py-4">About</a>
+        </li>
+        <li class="inline">
+          <a href="/working" class="lg:px-6 pr-4 py-4">Projects</a>
+        </li>
+        <li class="inline">
+          <a href="/learning" class="lg:px-6 pr-4 py-4">Aha! Moments</a>
+      </ul>
+    </div>
+  </header>
   <section class="container">
-    <header>
-      <div class="site-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></div>
-      <nav class="site-nav">
-        <a href="{{ site.baseurl }}/about">about</a>
-        <a href="{{ site.baseurl }}/working">working</a>
-        <a href="{{ site.baseurl }}/writing">writing</a>
-        <a href="{{ site.baseurl }}/learning">learning</a>
-      </nav>
-    </header>
     <section>
       {{ content }}
     </section>

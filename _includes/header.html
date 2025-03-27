@@ -1,14 +1,22 @@
-<header class="site-header">
-    <div class="container">
-      <a href="{{ site.baseurl }}/" class="site-name">
-        <h1>{{ site.name }}</h1>
-      </a>
-  
-      <nav class="site-nav">
-        <a href="{{ site.baseurl }}/about">About</a>
-        <a href="{{ site.baseurl }}/working">Working</a>
-        <a href="{{ site.baseurl }}/writing">Writing</a>
-        <a href="{{ site.baseurl }}/learning">Learning</a>
-      </nav>
-    </div>
-  </header>
+<header class="lg:flex items-center p-4">
+  <div class="logo lg:flex-grow tracking-tighter">
+    <a href="/" class="bg-clip-text text-transparent bg-gradient-to-r from-my-green to-my-light-blue text-5xl font-extrabold">Thomson Napitupulu</a>
+  </div>
+
+  <div class="lg:flex-grow lg:text-right text-md lg:text-xl">
+    <ul class="tracking-tight nav-links">
+      <li class="inline">
+        <a href="/about" class="lg:px-6 pr-4 py-4">About</a>
+      </li>
+      <li class="inline">
+        <a href="/posts" class="lg:px-6 pr-4 py-4">Writing</a>
+      </li>
+      <li class="inline">
+        <a href="/investing" class="lg:px-6 pr-4 py-4">Investing</a>
+      </li>
+      <li class="inline">
+        <a href="/talks" class="lg:px-6 pr-4 py-4">Speaking</a>
+      </li>
+    </ul>
+  </div>
+</header>
